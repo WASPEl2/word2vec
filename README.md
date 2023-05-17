@@ -1,11 +1,11 @@
 # word2vec
-install python lib
--------------------------
-!pip install flask flask_bootstrap pandas nltk transformers sklearn pickle
+- install python lib
+
+    !pip install flask flask_bootstrap pandas nltk transformers sklearn pickle
+
 -------------------------
 
+- install stopwords type underline word in python complier
 
-install stopwords type underline word in python complier
--------------------------
-nltk.download('stopwords')
--------------------------
+    nltk.download('stopwords')
+
