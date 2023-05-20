@@ -8,7 +8,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/your-deployment-script.sh"
+            "dest": "/index.py"
         }
     ]
 }
