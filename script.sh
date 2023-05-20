@@ -10,4 +10,4 @@ pip install -r requirements.txt
 # <insert build commands here>
 
 # Start your Python application
-# python app.py
+python app.py
