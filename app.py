@@ -49,7 +49,6 @@ def analyse():
 
         for index in top_indices:
             songs.append(data.loc[index])
-        print("songs :", songs)
 
     end = time.time()
     final_time = end - start

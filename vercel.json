@@ -1,0 +1,24 @@
+{
+    "builds": [
+        {
+            "src": "app.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "handle": "filesystem",
+            "src": "/templates/(.*)",
+            "dest": "templates/$1"
+        },
+        {
+            "handle": "filesystem",
+            "src": "/assets/(.*)",
+            "dest": "assets/$1"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "app.py"
+        }
+    ]
+}
