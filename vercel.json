@@ -1,14 +1,14 @@
 {
     "builds": [
         {
-            "src": "script.sh",
+            "src": "your-deployment-script.sh",
             "use": "@vercel/static-build"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/index.py"
+            "dest": "app.py"
         }
     ]
 }
