@@ -1,9 +1,4 @@
 {
-    "builds": [
-        {
-            "src": "app.py"
-        }
-    ],
     "routes": [
         {
             "src": "/templates/(.*)",
