@@ -1,7 +1,7 @@
 {
     "builds": [
         {
-            "src": "your-deployment-script.sh",
+            "src": "script.sh",
             "use": "@vercel/static-build"
         }
     ],
