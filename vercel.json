@@ -4,5 +4,11 @@
             "src": "your-deployment-script.sh",
             "use": "@vercel/static-build"
         }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/your-deployment-script.sh"
+        }
     ]
 }

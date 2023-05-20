@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Activate virtual environment (if applicable)
-# source venv/bin/activate
+python -m venv venv
+source venv/bin/activate
 
 # Install dependencies from requirements.txt
 pip install -r requirements.txt
